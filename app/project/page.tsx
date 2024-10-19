@@ -1,4 +1,4 @@
-// Projects.jsx
+
 export default function Projects() {
     const projects = [
       {
@@ -11,7 +11,7 @@ export default function Projects() {
         title: "Digital Clock",
         description: "My personal digital clock website built with Nextjs and Tailwind CSS.",
         link: "https://6-digital-clock.vercel.app/",
-        image: "/image.PNG",
+        image: "/image.png" ,
       },
       {
         title: "Resume Generator",
