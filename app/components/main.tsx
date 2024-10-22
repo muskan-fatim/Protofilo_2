@@ -33,7 +33,7 @@ export default function HeroSection() {
           <a href="https://www.linkedin.com/in/muskan-fatima-ab90732b7/" className="px-6 py-3 bg-white text-gray-600 font-semibold rounded-full shadow-lg hover:bg-gray-300 transition duration-500 ease-in-out transform hover:-translate-y-1">
             Talk on LinkedIn
           </a>
-          <a href="mailto:muskan@example.com" className="px-6 py-3 bg-white text-gray-600 font-semibold rounded-full shadow-lg hover:bg-gray-300 transition duration-500 ease-in-out transform hover:-translate-y-1">
+          <a href="mushiifatima3456@gmail.com" className="px-6 py-3 bg-white text-gray-600 font-semibold rounded-full shadow-lg hover:bg-gray-300 transition duration-500 ease-in-out transform hover:-translate-y-1">
             Contact via Email
           </a>
         </div>
