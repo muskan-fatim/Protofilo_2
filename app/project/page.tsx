@@ -18,20 +18,16 @@ export default function Projects() {
         description: "Resume Generator  website built HTML CSS and Javascript Scratch.",
         link: "https://resume-generator-azure.vercel.app/",
         image: "/Capture.PNG",
-      },{
+      },
+      ,{
 
-      title: "Birthday Card",
-      description: "My birthday card website built with  Nextjs.",
-      link: "https://day-3-omega.vercel.app/",
-      image: "/birthday.PNG",
-    },{
-
-      title: "panda clone",
-      description: "panda clone website built with  Nextjs and tailwind css.",
-      link: "https://panda-clone.vercel.app/",
-    },
-     
-
+        title: "panda clone",
+        description: "panda clone website built with  Nextjs and tailwind css.",
+        link: "https://panda-clone.vercel.app/",
+        image: "/panda-background.webp",
+  
+      },
+       
     ];
   
     return (
