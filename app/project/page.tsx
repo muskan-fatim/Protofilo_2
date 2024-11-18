@@ -3,8 +3,8 @@ export default function Projects() {
     const projects = [
       {
         title: "Joke Generator app",
-        description: "A Joke Generator application built with HTML CSS Javascript Scratch",
-        link: "https://resume-generator-azure.vercel.app/",
+        description: "A Joke Generator application built with Nextjs",
+        link: "https://7-joke-genrator.vercel.app/",
         image: "/joke.PNG",
       },
       {
@@ -15,8 +15,8 @@ export default function Projects() {
       },
       {
         title: "Resume Generator",
-        description: "Resume Generator  website built with Nextjs.",
-        link: "https://resum-genreater.vercel.app/",
+        description: "Resume Generator  website built HTML CSS and Javascript Scratch.",
+        link: "https://resume-generator-azure.vercel.app/",
         image: "/Capture.PNG",
       },{
 
