@@ -3,8 +3,8 @@ export default function Projects() {
     const projects = [
       {
         title: "Joke Generator app",
-        description: "A Joke Generator application built with NextJs and Tailwind CSS.",
-        link: "https://7-joke-genrator.vercel.app/",
+        description: "A Joke Generator application built with HTML CSS Javascript Scratch",
+        link: "https://resume-generator-azure.vercel.app/",
         image: "/joke.PNG",
       },
       {
@@ -24,6 +24,11 @@ export default function Projects() {
       description: "My birthday card website built with  Nextjs.",
       link: "https://day-3-omega.vercel.app/",
       image: "/birthday.PNG",
+    },{
+
+      title: "panda clone",
+      description: "panda clone website built with  Nextjs and tailwind css.",
+      link: "https://panda-clone.vercel.app/",
     },
      
 
