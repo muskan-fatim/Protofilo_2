@@ -19,7 +19,7 @@ export default function Projects() {
         link: "https://resume-generator-azure.vercel.app/",
         image: "/Capture.PNG",
       },
-      ,{
+      {
 
         title: "panda clone",
         description: "panda clone website built with  Nextjs and tailwind css.",
