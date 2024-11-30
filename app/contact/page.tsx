@@ -19,7 +19,7 @@ export default function ContactMe() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
           {/* LinkedIn Card */}
           <div
-            className={`bg-white text-gray-900 shadow-white rounded-lg shadow-md p-6 text-center flex flex-col items-center transform transition-all ${animate ? 'animate-slide-left' : ''} hover:bg-gray-100 hover:shadow-2xl hover:text-pink-500`}
+            className={`bg-white text-gray-900 shadow-gray-200 rounded-lg shadow-md p-6 text-center flex flex-col items-center transform transition-all ${animate ? 'animate-slide-left' : ''} hover:bg-gray-100 hover:shadow-2xl hover:text-pink-500`}
           >
             <FaLinkedin className="text-4xl mb-4 transition-transform duration-200 ease-in-out" />
             <a
@@ -35,7 +35,7 @@ export default function ContactMe() {
 
           {/* Email Card */}
           <div
-            className={`bg-white text-gray-900 shadow-white rounded-lg shadow-md p-6 text-center flex flex-col items-center transform transition-all ${animate ? 'animate-slide-up' : ''} hover:bg-gray-100 hover:shadow-2xl hover:text-pink-500`}
+            className={`bg-white text-gray-900 shadow-gray-200 rounded-lg shadow-md p-6 text-center flex flex-col items-center transform transition-all ${animate ? 'animate-slide-up' : ''} hover:bg-gray-100 hover:shadow-2xl hover:text-pink-500`}
           >
             <FaEnvelope className="text-4xl mb-4 transition-transform duration-200 ease-in-out" />
             <a
@@ -49,7 +49,7 @@ export default function ContactMe() {
 
           {/* GitHub Card */}
           <div
-            className={`bg-white text-gray-900 shadow-white rounded-lg shadow-md p-6 text-center flex flex-col items-center h-52 transform transition-all ${animate ? 'animate-slide-right' : ''} hover:bg-gray-100 hover:shadow-2xl hover:text-pink-500`}
+            className={`bg-white text-gray-900 shadow-gray-200 rounded-lg shadow-md p-6 text-center flex flex-col items-center h-52 transform transition-all ${animate ? 'animate-slide-right' : ''} hover:bg-gray-100 hover:shadow-2xl hover:text-pink-500`}
           >
             <FaGithub className="text-4xl mb-4 transition-transform duration-200 ease-in-out" />
             <a
