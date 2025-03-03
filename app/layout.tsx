@@ -22,6 +22,7 @@ export default function RootLayout({
     <html lang="en" className={agdasima.className}>
       <body className="bg-gray-200">
         <Navbar />
+        
         {children}
       </body>
     </html>

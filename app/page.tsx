@@ -1,16 +1,13 @@
-import Navbar from "./components/nav";
-import Main from "./components/main";
+import Layout from "./components/layout";
 import Footer from "./components/footer";
-import Image from "next/image";
-
+import HeroSection from "./components/main";
 export default function Home() {
   return (
-    <div className="relative h-screen w-full ">
-      
-      <div className="relative z-10">
-        <Main />
-        <Footer />
-      </div>
-    </div>
+    <Layout>
+     <div>
+      <HeroSection />
+      <Footer />
+      </div>      
+    </Layout>
   );
 }

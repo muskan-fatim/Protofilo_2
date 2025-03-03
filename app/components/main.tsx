@@ -15,12 +15,12 @@ export default function HeroSection() {
     <section className="relative bg-gradient-to-r from-gray-700 via-gray-800 to-gray-900 text-white h-screen flex items-center justify-center overflow-hidden">
       <div className={`absolute inset-0 bg-gradient-to-r from-pink-500 to-gray-800 opacity-40 transition-all duration-3000 ease-in-out`}></div>
       
-      <div className={`relative z-10 flex flex-col items-center text-center px-4 transform transition-opacity duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
+      <div className={`relative z-10 flex flex-col items-center mt-3 text-center px-4 transform transition-opacity duration-1000 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
         <Image
           src="/main.jpg"
           alt="Main Profile"
-          height={250}
-          width={250}
+          height={230}
+          width={240}
           className="rounded-full mb-4 border-4 border-gray-500 transition-transform duration-1000 ease-out hover:scale-105"
         />
         <h1 className="text-4xl sm:text-5xl font-bold mb-4 text-white leading-tight tracking-wide transition-transform duration-1000 ease-out hover:scale-105">
